@@ -9,6 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Document(collection = "reviews")
+// Used to club all getter setter methods with one annotaion
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

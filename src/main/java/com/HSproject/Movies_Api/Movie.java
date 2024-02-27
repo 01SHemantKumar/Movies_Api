@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+// Used to club all getter setter methods with one annotaion
 @Document(collection = "Movies")
 @Data
 @AllArgsConstructor
