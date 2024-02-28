@@ -2,8 +2,6 @@ package com.HSproject.Movies_Api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 // @EnableAutoConfiguration: enable Spring Boot’s auto-configuration mechanism
 // @ComponentScan: enable @Component scan on the package where the application is located (see the best practices)

@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 // Used to club all getter setter methods with one annotaion
 @Document(collection = "Movies")
 @Data
@@ -19,13 +20,13 @@ public class Movie {
 
     @Id
     private ObjectId id;
-    private String imbdId;
+    private String imdbId;
     private String title;
     private String releaseDate;
     private String trailerLink;
     private String poster;
     private List<String> genres;
-    private List<String> backdrop;
+    private List<String> backdrops;
     @DocumentReference
     private List<Review> reviewIds;
 
